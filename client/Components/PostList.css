@@ -1,0 +1,27 @@
+body {
+  background: #e1e3de;
+}
+.grid-container {
+  display: grid;
+  display: inline-grid;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+img.random_img:hover {
+  box-shadow: 0 0 32px #333;
+}
+img.random_img {
+  max-width: 100%;
+  border-radius: 8px;
+  height: 150px;
+  margin: 8px;
+  box-shadow: 1px 2px;
+}
+.input {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  padding: 1%;
+  border-radius: 8px;
+  box-shadow: 1px 2px;
+}
